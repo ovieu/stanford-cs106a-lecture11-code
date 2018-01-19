@@ -20,6 +20,9 @@ public class TextFieldExample2 extends ConsoleProgram {
 
         add(new JLabel("Name"), SOUTH);
         add(nameField, SOUTH);
+
+        //  you must add the listner to the textfield
+        //  to be able to get actions from that textfield interactor
         nameField.addActionListener(this);
     }
 
